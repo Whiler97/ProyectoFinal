@@ -84,6 +84,11 @@ a:hover {
   flex: 2;
 }
 
+.footer h2 {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (max-width: 700px) {
   .menu-info ul {
     flex-direction: column;
