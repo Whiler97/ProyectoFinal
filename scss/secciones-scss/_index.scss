@@ -40,9 +40,13 @@ a {
 a:hover {
     color: blue;
     transition-duration: 350ms;
+    
 }
 
 .section1 h1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
     font-weight: 600;
     font-family: 'Kanit', sans-serif;
     color: white;
@@ -60,6 +64,10 @@ a:hover {
 
 .section2 h2{
     margin-left: 20px;
+}
+
+#arrow{
+    padding: 5px;
 }
 
 .kodfun-galeri {
