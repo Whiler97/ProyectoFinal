@@ -77,6 +77,23 @@ a:hover {
     padding: 10px;
 }
 
+.kodfun-galeri p{
+    margin: auto;  
+  color: #fff;
+  text-align: center;
+  line-height: 20rem;
+  background: #000;
+  transition: opacity .4s linear;
+  cursor: pointer;  
+  position: absolute;
+  min-height: 20rem;
+  opacity: 0;
+}
+
+.kodfun-galeri :hover p{
+    opacity: .75;
+}
+
 .kodfun-galeri div {
     flex: 1;
     border-radius: 1rem;
@@ -90,7 +107,9 @@ a:hover {
 
 .kodfun-galeri div:hover {
     flex: 2;
+    
 }
+
 
 .footer h2 {
     display: flex;
