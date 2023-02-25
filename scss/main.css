@@ -236,13 +236,6 @@ input[type=submit] {
   cursor: pointer;
 }
 
-body {
-  background: url(.../imagenes/sobre/bg-pattern-bottom-desktop.svg), url(../images/bg-pattern-bottom-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
-  font-family: "League Spartan", sans-serif;
-}
-
 .container {
   margin: 80px auto;
   display: flex;
@@ -254,7 +247,7 @@ header {
 }
 
 header h1 {
-  color: hsl(300deg, 43%, 22%);
+  color: hsl(300, 43%, 22%);
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
@@ -263,7 +256,7 @@ header h1 {
 }
 
 header p {
-  color: hsl(303deg, 10%, 53%);
+  color: hsl(303, 10%, 53%);
   text-align: center;
   line-height: 25px;
   font-size: 14px;
@@ -274,7 +267,7 @@ header p {
 .menu ul {
   margin: 20px;
   padding: 20px;
-  background-color: hsl(300deg, 41%, 34%);
+  background-color: hsl(300, 41%, 34%);
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -283,14 +276,14 @@ header p {
 }
 
 .stars {
-  background-color: hsl(300deg, 19%, 81%);
+  background-color: hsl(300, 19%, 81%);
   border-radius: 4px;
   margin: 8px 0;
   width: 330px;
   height: 80px;
   padding: 15px;
   font-weight: 700;
-  color: hsl(300deg, 43%, 22%);
+  color: hsl(300, 43%, 22%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -307,12 +300,12 @@ header p {
 }
 
 .cards {
-  background-color: hsl(300deg, 43%, 22%);
+  background-color: hsl(300, 43%, 22%);
   border-radius: 10px;
   max-width: 330px;
   padding: 37px;
   margin: 16px 24px 0px 24px;
-  color: hsl(300deg, 24%, 96%);
+  color: hsl(300, 24%, 96%);
   font-size: 12px;
   display: grid;
   grid-template-columns: 1fr 10fr;
@@ -332,7 +325,7 @@ header p {
 }
 
 .cards .status {
-  color: hsl(333deg, 80%, 67%);
+  color: hsl(333, 80%, 67%);
   grid-column: 2/3;
 }
 
@@ -367,7 +360,7 @@ header p {
 }
 
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 /*--------------------------RESPONSIVE >375px---------------------------*/
