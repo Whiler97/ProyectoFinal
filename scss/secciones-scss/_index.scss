@@ -86,8 +86,10 @@ a:hover {
   transition: opacity .4s linear;
   cursor: pointer;  
   position: absolute;
-  min-height: 20rem;
+  top: 55fr;
+  left: 10px;
   opacity: 0;
+  border-radius: 10px;
 }
 
 .kodfun-galeri :hover p{
