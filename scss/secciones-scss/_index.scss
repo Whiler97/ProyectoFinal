@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 
 }
 
@@ -77,22 +77,22 @@ a:hover {
     padding: 10px;
 }
 
-.kodfun-galeri p{
-    margin: auto;  
-  color: #fff;
-  text-align: center;
-  line-height: 20rem;
-  background: #000;
-  transition: opacity .4s linear;
-  cursor: pointer;  
-  position: absolute;
-  top: 55fr;
-  left: 10px;
-  opacity: 0;
-  border-radius: 10px;
+.parrafo1 {
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    line-height: 20rem;
+    background: #000;
+    transition: opacity .4s linear;
+    cursor: pointer;
+    position: absolute;
+    top: 55fr;
+    left: 10px;
+    opacity: 0;
+    border-radius: 10px;
 }
 
-.kodfun-galeri :hover p{
+.kodfun-galeri :hover p {
     opacity: .75;
 }
 
@@ -109,7 +109,7 @@ a:hover {
 
 .kodfun-galeri div:hover {
     flex: 2;
-    
+
 }
 
 
@@ -130,7 +130,7 @@ a:hover {
 
     .kodfun-galeri {
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 20px;
 
 
