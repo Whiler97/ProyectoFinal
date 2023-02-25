@@ -20,7 +20,7 @@
 
 }
 
-a {
+.menu-info ul a {
     text-decoration: none;
     color: white;
     font-weight: 600;
@@ -36,8 +36,8 @@ a {
     background-color: black;
 }
 
-a:hover {
-    color: blue;
+.menu-info ul a:hover {
+    color: rgb(61, 61, 238);
     transition-duration: 350ms;
 
 }
@@ -64,6 +64,13 @@ a:hover {
 
 .section2 h2 {
     margin-left: 20px;
+    
+}
+
+.section2 h2 a{
+    text-decoration: none;
+    color: rgb(184, 187, 172);
+    font-weight: 600;
 }
 
 #arrow {
@@ -77,7 +84,7 @@ a:hover {
     padding: 10px;
 }
 
-.parrafo1 {
+.kodfun-galeri p {
     margin: auto;
     color: #fff;
     text-align: center;
@@ -91,6 +98,7 @@ a:hover {
     opacity: 0;
     border-radius: 10px;
 }
+
 
 .kodfun-galeri :hover p {
     opacity: .75;
@@ -118,6 +126,11 @@ a:hover {
     justify-content: space-around;
 }
 
+
+.footer{
+font-size: 12px;
+text-decoration: none;
+}
 
 
 
